@@ -1,0 +1,67 @@
+/* reset.css */
+
+/* Elimina el espacio entre elementos y establece márgenes y rellenos a cero */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dd, ol, ul, figure, hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Asegura que los elementos de la lista no tengan viñetas ni numeración por defecto */
+ul, ol {
+    list-style: none;
+}
+
+/* Asegura que las imágenes no tengan bordes y no afecten el diseño */
+img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Corrige el comportamiento de los enlaces para que se vean más naturales */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Asegura que los elementos de formulario tengan los mismos estilos en todos los navegadores */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+}
+
+/* Normaliza el estilo del formulario */
+button, input {
+    overflow: visible;
+}
+
+/* Define la apariencia predeterminada del cursor */
+button, select {
+    text-transform: none;
+}
+
+/* Ajusta la apariencia del borde en Firefox y Safari */
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+/* Evita el rebote del scroll en algunos navegadores */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Normaliza la apariencia de las citas */
+blockquote, q {
+    quotes: none;
+}
+
+/* Normaliza la apariencia de las citas después de los elementos bloque */
+blockquote::after, blockquote::before,
+q::after, q::before {
+    content: '';
+    content: none;
+}
+s
