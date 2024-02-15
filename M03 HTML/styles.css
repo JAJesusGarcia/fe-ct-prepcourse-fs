@@ -1,22 +1,15 @@
-#contactos{
-    
-    width:fit-content;
-    padding: 1em 1em 2em 1em; 
-    border-radius: 10%;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    align-items: center;
-}
-
-.logo{
-    width: 300px;
-    height: 300px;
-}
-
 .contactos-logos{
-    border: 1px solid black;
-    width: auto;
-    flex-direction: column;
+    width: 2em;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+#contactos{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: inherit;
+    width: 300px;
 }

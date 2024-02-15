@@ -11,12 +11,12 @@
 }
 
 .logo{
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
 
 .contactos-logos{
 
     width: auto;
-    flex-direction: column;
+    flex-direction: row;
 }
